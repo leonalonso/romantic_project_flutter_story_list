@@ -342,7 +342,7 @@ class StoryListAddIcon extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed as void Function()?,
       child: Icon(
-        Icons.add,
+        Feather.plus,
         color: iconColor,
         size: size,
       ),
